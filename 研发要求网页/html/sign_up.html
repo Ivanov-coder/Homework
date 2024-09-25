@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8"/>
+        <meta charset="utf-8"/>
+        <meta content="Ferne" name="author"/>
+        <title>
+        注册界面
+        </title>
+    </head>
+    <body>
+    <div class="container">
+        <div class="login">
+            <div class="login-body">
+                <form method="post">
+                    <div class="logo">
+                        <img src="../bgpic/pic2.png"/>
+                    </div>
+                    <div class="form-item">
+                        <label for="username">邮箱</label>
+                        <br/>
+                        <input id="email" name="email" placeholder="请输入邮箱" type="text"/>
+                    </div>
+                    <br/>
+                    <div class="form-item">
+                        <label for="password">密码</label>
+                        <br/>
+                        <input id="password" name="password" placeholder="请输入密码" type="password"/>
+                    </div>
+                    <br/>
+                    <div class="form-item">
+                        <label for="password">密码</label>
+                        <br/>
+                        <input id="checkPassword" name="checkPassword" placeholder="请确认密码" type="password"/>
+                    </div>
+                </form>
+                <br/>
+                <div class="check">
+                    <button class="signbutton" onclick="validateForm()">确认</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    <link href="../css/signup_css.css" rel="stylesheet"/>
+    <script type="text/javascript" src="../js/signup_js.js"></script>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <meta charset="utf-8"><meta charset="utf-8">
+    <meta name="author" content="Ferne">
+    <head>
+        <title>登录界面</title>
+    </head>
+    <link rel="stylesheet" href="./css/index_css.css">
+    <body>
+        <div class="container">
+            <div class="login">
+                <div class="login-body">
+                    <form method="post" id="myForm">
+                        <div class="logo">
+                            <img src="./bgpic/pic2.png">
+                        </div>
+                        <div class="form-item">
+                            <label for="username">邮箱</label>
+                            <br/>
+                            <input type="text" name="email" id="email" placeholder="请输入邮箱">
+                        </div>
+                        <br/>
+                        <div class="form-item">
+                            <label for="password">密码</label>
+                            <br/>
+                            <input type="password" name="password" id="password" placeholder="请输入密码">
+                        </div>
+                        <br/>
+                        <div class="check">
+                            <button class="logbutton" onclick="validateForm()">确认</button>
+                        </div>
+                        <div class="signup">
+                            <a class="jump" href="./html/sign_up.html">点我注册</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="./js/checker.js"></script>
+    <script type="text/javascript" src="./js/seepwd.js"></script>
+</html>
